@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Cumpleaños - Recuerdos</title>
+    <style>
+
+        
+
+        /* Estilos de fondo y tipografía */
+        body {
+            background-image: url('img/Gemini_Generated_Image_h5v1zch5v1zch5v1.png');
+            background-repeat: repeat; 
+            background-size: 300px; 
+            font-family: 'Courier New', Courier, monospace;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+            color: rgb(20, 19, 19);
+        }
+
+        h1 {
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            margin-bottom: 40px;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+
+        /* Contenedor del collage */
+        .collage-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            max-width: 1000px;
+            width: 100%;
+            justify-items: center;
+        }
+
+        /* Estilo de la Polaroid */
+        .polaroid {
+            background: #fdfdfd;
+            padding: 15px 15px 40px 15px;
+            box-shadow: 0 10px 20px rgba(247, 184, 102, 0.3);
+            position: relative;
+            transition: transform 0.3s ease;
+            width: 220px;
+        }
+
+        .polaroid img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            filter: sepia(20%) contrast(90%); /* Efecto vintage */
+        }
+
+        /* Efecto de cinta adhesiva */
+        .polaroid::before {
+            content: "";
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 30px;
+            background: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(2px);
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* Rotaciones aleatorias para realismo */
+        .polaroid:nth-child(odd) { transform: rotate(-2deg); }
+        .polaroid:nth-child(even) { transform: rotate(3deg); }
+        .polaroid:nth-child(3n) { transform: rotate(-1deg); }
+
+        .polaroid:hover {
+            transform: scale(1.05) rotate(0deg);
+            z-index: 10;
+        }
+
+        /* Texto debajo de la foto */
+        .caption {
+            color: #111111;
+            text-align: center;
+            margin-top: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.9); 
+            padding: 20px 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            margin-top: 50px;
+            font-size: 1.2em;
+            color: #070707;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>❤️Feliz Cumpleaños Mi Amor❤️</h1>
+
+    <div class="collage-container">
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.35 PM.jpeg" alt="Recuerdo 1">
+            <div class="caption">Aquella cita inolvidable</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (1).jpeg" alt="Recuerdo 2">
+            <div class="caption">Risas sin parar</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (2).jpeg" alt="Recuerdo 3">
+            <div class="caption">Momentos mágicos</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (3).jpeg" alt="Recuerdo 4">
+            <div class="caption">Nuestra mejor foto</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (4).jpeg" alt="Recuerdo 5">
+            <div class="caption">Un día especial</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (5).jpeg" alt="Recuerdo 6">
+            <div class="caption">Uno de tus muchos deseos</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (6).jpeg" alt="Recuerdo 6">
+            <div class="caption">¡Por muchos más momentos!</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (7).jpeg" alt="Recuerdo 7">
+            <div class="caption">Una noche inolvidable</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-28 at 11.33.36 PM (9).jpeg" alt="Recuerdo 8">
+            <div class="caption">Tu momento mas chistoso</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.44 AM.jpeg" alt="Recuerdo 9">
+            <div class="caption">Tu momento mas tierno</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.45 AM (2).jpeg" alt="Recuerdo 10">
+            <div class="caption">HARAGAN!!</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.45 AM (3).jpeg" alt="Recuerdo 11">
+            <div class="caption">SIUUUUUUUUUUUUU</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.45 AM (4).jpeg" alt="Recuerdo 12">
+            <div class="caption">Twins</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.45 AM.jpeg" alt="Recuerdo 13">
+            <div class="caption">Una tarde espectacular</div>
+        </div>
+        
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-21 at 8.30.33 PM.jpeg" alt="Recuerdo 9">
+            <div class="caption">TE AMO</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 1.28.45 AM (1).jpeg" alt="Recuerdo 14">
+            <div class="caption">Eres mi vida</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 9.40.31 PM (2).jpeg" alt="Recuerdo 15">
+            <div class="caption">Tu sonrisa de niño</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 9.40.31 PM (3).jpeg" alt="Recuerdo 16">
+            <div class="caption">Ver como admiras la naturaleza</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 9.40.31 PM (4).jpeg" alt="Recuerdo 17">
+            <div class="caption">Nosotros de niños</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 9.40.31 PM (5).jpeg" alt="Recuerdo 18">
+            <div class="caption">YUMMY</div>
+        </div>
+
+        <div class="polaroid">
+            <img src="img/WhatsApp Image 2026-04-29 at 9.40.31 PM.jpeg" alt="Recuerdo 19">
+            <div class="caption">Que guapoooo</div>
+        </div>
+    </div>
+
+    <footer>Hecho con cariño para ti ❤️</footer>
+
+</body>
+</html>
